@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Main Dropdown button*/
+
+#DropdownMenyButton{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	box-shadow: 0px 3px 6px lightgrey;
+	z-index: 5;
+	background-image: url("Img/Pageicons/Menu.svg");
+	background-size: cover;
+}
+#DropdownMenyButton:hover{
+	width: 60px;
+	height: 60px;
+}
+
+#Checking{
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	z-index: 2;
+}
+/*The other buttons in the menu*/
+
+.NavButton:hover{
+	height: 60px;
+	width: 60px;;
+}
+
+.NavButton{
+	width: 50px;
+	height:50px;
+	background-color: white;
+	position: fixed;
+	box-shadow: 0px 3px 6px lightgrey;
+	display:none;
+	z-index: 4;
+}
+
+
+
+/* The Homebutton animaton*/
+
+#Checking:checked ~ .NavButton{
+	display: block;
+}
+
+#Checking:checked ~ #Home{
+animation-name: Goinghome;
+animation-duration: 0.5s;
+animation-direction: normal;
+animation-iteration-count: 1;
+animation-fill-mode:forwards; 
+}
+
+#Home{
+	background-image: url("Img/Pageicons/Home.svg");
+	background-size: cover;
+	left: 10px;
+	top: 10px;
+}
+@keyframes Goinghome{
+	0%{
+		left:6px;
+		top: 6px;
+		
+	}
+	99%{
+		
+	}
+	100%{
+		left: 80px;
+		top: 5px;
+
+	}
+}
+
+/* The Gallerybutton animation*/
+
+
+#Checking:checked ~ #Gallery{
+animation-name: Goinghome2;
+animation-duration: 0.5s;
+animation-direction: normal;
+animation-iteration-count: 1;
+animation-fill-mode:forwards; 
+}
+
+#Gallery{	
+	left: 10px;
+	top: 10px;
+	background-image: url("Img/Pageicons/Gallery.svg");
+	background-size: cover;
+}
+@keyframes Goinghome2{
+	0%{
+		left:6px;
+		top: 6px;
+		
+	}
+	99%{
+		animation-play-state: paused;
+	}
+	100%{
+		left: 80px;
+		top: 80px;
+
+	}
+}
+
+/* Ceckbox*/
+
+#Checking{
+	display: none;
+}
+
+/* The Contactbutton animation*/
+
+
+#Checking:checked ~ #Contact{
+animation-name: Goinghome3;
+animation-duration: 0.5s;
+animation-direction: normal;
+animation-iteration-count: 1;
+animation-fill-mode:forwards; 
+}
+
+#Contact{
+	background-image: url("Img/Pageicons/Contact.svg");
+	background-size: cover;
+	left: 10px;
+	top: 10px;
+}
+@keyframes Goinghome3{
+	0%{
+		left:6px;
+		top: 6px;
+			}
+	99%{
+		animation-play-state: paused;
+	}
+	100%{
+		left: 5px;
+		top: 80px;
+
+	}
+}
