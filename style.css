@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	height: 50vw;
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+.Skills{
+	height: 500px;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-color: #07D0C4;
+}
+
+.headline{
+	color: #707070;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	top: 20%;
+	font-size: 45px;
+}
+
+.headertext{
+	color: #707070;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	top: 35%;
+	font-size: 30px;
+}
+
+.Somebar{
+	box-shadow: 0px 3px 6px lightgrey;
+	width: 40%;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 60%;
+	margin: auto;
+}
+
+.copyright{
+	position: absolute;
+	right: 50px;
+	bottom: 5%;
+	margin: auto;
+	font-size: 20px;
+	color: #707070;
+}
