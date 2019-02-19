@@ -285,3 +285,59 @@ text-align: center;
 font-size: 25;
 right: 0px;
 }
+
+#singledesigntittle{
+
+	color: #E7AA23;
+	text-align: center;
+	font-size: 35px;
+	width: 100%;
+	bottom: 5px;
+	position: absolute;
+}
+
+.Skillikontitlebox{
+	top: 180px;
+	width: 300px;
+	height: 300px;
+	left: 0px;
+	right: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	box-shadow: 0px 3px 6px lightgrey;
+}
+.Largeskillicon{
+	width: 70%;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	position: absolute;
+}
+.Whitespace{
+	height: 70vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-color: white;
+	margin: none;
+	padding: none;
+	left: 0px;
+	float: left;
+	border: none;
+	
+}
+
+.Design{
+	height: 150vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-color: #E7AA23;
+	margin: none;
+	padding: none;
+	left: 0px;
+	float: left;
+	border: none;
+}
