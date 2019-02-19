@@ -161,7 +161,7 @@ font-family: "Open Sans"
 
 
 .Skills{
-	height: 100vh;
+	height: 150vh;
 	width: 100%;
 	position: relative;
 	top: 0px;
@@ -183,15 +183,16 @@ font-family: "Open Sans"
 .content{
 	top: 0px;
 	position: relative;
-	margin-left:20vw;
-	margin-right: 20vw;
+	margin-left:15vw;
+	margin-right: 15vw;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .DesignSkills{
 	background-color: white;
 	width: 30%;
 	height: 425px;
-	margin-top: 10%;
+	margin-top: 35%;
 	box-shadow: 0px 3px 6px lightgrey;
 	position: absolute;
 }
@@ -200,7 +201,7 @@ font-family: "Open Sans"
 	background-color: white;
 	width: 30%;
 	height: 250px;
-	margin-top: 10%;
+	margin-top: 35%;
 	box-shadow: 0px 3px 6px lightgrey;
 	position: absolute;
 	top: 0px;
@@ -210,8 +211,8 @@ font-family: "Open Sans"
 .OtherSkills{
 	background-color: white;
 	width: 30%;
-	height: 300px;
-	margin-top: 10%;
+	height: 350px;
+	margin-top: 35%;
 	box-shadow: 0px 3px 6px lightgrey;
 	float: right;
 	top: 0px;
@@ -244,21 +245,26 @@ position: relative;
 color: #707070;
 }
 
-
+.Skillicon{
+width: 40%;
+height: 40%;
+}
 #designtittle{
 color: white;
-top: 0px;
+top: 60px;
 width: 30%;
 height:auto;
 position: absolute;
 z-index: 2;
 text-align: center;
 font-size: 25;
+margin-bottom: 50px;
+
 }
 
 #codetittle{
 color: white;
-top: 0px;
+top: 60px;
 width: 30%;
 height:auto;
 position: absolute;
@@ -270,7 +276,7 @@ margin-left: 35%;
 
 #othertittle{
 color: white;
-top: 0px;
+top: 60px;
 width: 30%;
 height:auto;
 position: absolute;
