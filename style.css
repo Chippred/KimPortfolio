@@ -138,6 +138,10 @@ font-family: "Open Sans"
 
 }
 
+.SomeList:hover{
+	opacity: 0.8;
+}
+
 .copyright{
 	position: absolute;
 	right: 50px;
@@ -177,14 +181,16 @@ font-family: "Open Sans"
 }
 
 .content{
+	top: 0px;
 	position: relative;
 	margin-left:20vw;
 	margin-right: 20vw;
+	margin-top: 20px;
 }
 .DesignSkills{
 	background-color: white;
 	width: 30%;
-	height: 300px;
+	height: 425px;
 	margin-top: 10%;
 	box-shadow: 0px 3px 6px lightgrey;
 	position: absolute;
@@ -193,7 +199,7 @@ font-family: "Open Sans"
 .CodeSkills{
 	background-color: white;
 	width: 30%;
-	height: 300px;
+	height: 250px;
 	margin-top: 10%;
 	box-shadow: 0px 3px 6px lightgrey;
 	position: absolute;
@@ -222,14 +228,54 @@ font-family: "Open Sans"
 	height: auto;
 	
 }
+#Skillsheadline{
+	font-size: 45px;
+}
 
 .Skill_list li{
 	margin-top: 8px;
 }
 
-#DesignTools{
+.Tools{
 margin-left: 40px;
 top: 20px;
+margin-bottom: 20px;
 position: relative;
 color: #707070;
+}
+
+
+#designtittle{
+color: white;
+top: 0px;
+width: 30%;
+height:auto;
+position: absolute;
+z-index: 2;
+text-align: center;
+font-size: 25;
+}
+
+#codetittle{
+color: white;
+top: 0px;
+width: 30%;
+height:auto;
+position: absolute;
+z-index: 2;
+text-align: center;
+font-size: 25;
+margin-left: 35%;
+}
+
+#othertittle{
+color: white;
+top: 0px;
+width: 30%;
+height:auto;
+position: absolute;
+z-index: 2;
+text-align: center;
+font-size: 25;
+right: 0px;
 }
