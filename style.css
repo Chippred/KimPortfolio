@@ -152,7 +152,15 @@ font-family: "Open Sans"
 	color: #707070;
 }
 
-
+.ParalaxMe{
+	height: 50vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(Img/images/Skognaturvinter.png);
+	background-position: center;
+	
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*_____________SKILLS SECTION_____________*/
