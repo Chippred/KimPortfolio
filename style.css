@@ -204,12 +204,20 @@ font-family: "Open Sans"
 
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) { /*Just to make sure it stacks okay on mobile*/
+
   .content{
     flex-direction: column;
     flex-wrap: nowrap;
     display: flex;
   }
+}
+
+
+
+.Skills h1{
+    text-align: center;
 }
 
 .DesignSkills{
@@ -269,6 +277,12 @@ color: #707070;
 .Skillicon{
 width: 40%;
 height: 40%;
+margin-left: 30%;
+margin-right: 30%;
+left: 0px;
+right: 0px;
+
+
 }
 #designtittle{
 text-align: left;
